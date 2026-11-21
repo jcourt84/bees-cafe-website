@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover Bee's Café in Seneca Falls, NY: homemade baked goods, breakfast, lunch, and a warm welcome.">
+  <title>Bee's Café | Seneca Falls, NY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="bee" aria-hidden="true">🐝</span> Bee's Café</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">Our Story</a>
+        <a href="#favorites">What We Make</a>
+        <a href="menu.html">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit" class="nav-visit">Visit Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-photo" role="img" aria-label="Welcoming dining room at Bee's Café"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow hero-eyebrow">A LITTLE LOCAL HAPPINESS IN SENECA FALLS</span>
+        <h1>Good food.<br>Sweet moments.<br><em>Made from scratch.</em></h1>
+        <p>Come in for a cozy breakfast, a satisfying lunch, and something freshly baked at Bee's Café.</p>
+        <div class="button-row"><a class="btn btn-yellow" href="#favorites">Explore the Café</a><a class="btn btn-outline" href="#visit">Plan Your Visit</a></div>
+      </div>
+    </section>
+
+    <section class="welcome section container">
+      <span class="eyebrow">WELCOME TO BEE'S CAFÉ</span>
+      <h2>Come hungry. Leave happy.</h2>
+      <p>We're a family-owned café in the heart of downtown Seneca Falls, serving breakfast, lunch, and homemade baked goods with plenty of heart.</p>
+      <div class="features">
+        <div><span aria-hidden="true">🍞</span><h3>Homemade Breads</h3><p>Freshly baked goodness from Debbie's kitchen.</p></div>
+        <div><span aria-hidden="true">☕</span><h3>Breakfast & Lunch</h3><p>Comforting café favorites for your day.</p></div>
+        <div><span aria-hidden="true">🧁</span><h3>Sweet Treats</h3><p>Cookies, cakes, muffins, and more.</p></div>
+      </div>
+    </section>
+
+    <section class="story section" id="about">
+      <div class="container split">
+        <div class="image-wrap"><img src="images/owners.jpg.png" alt="Chris and Debbie Boulter, owners of Bee's Café" loading="lazy"></div>
+        <div class="story-text"><span class="eyebrow">THE PEOPLE BEHIND THE BUZZ</span><h2>Meet Chris & Debbie</h2><p>Bee's Café began with a love of baking. Chris and Debbie Boulter first opened Bee's Cake and Cookies, making specialty cakes and cookies before expanding into breakfast and lunch.</p><p>In 2017, they brought their vision to a larger space on Fall Street, where homemade breads, baked goods, and welcoming hospitality became part of the café's story.</p><blockquote>“The bumble bee is my symbol. I like to be busy, always buzzing around in the bakery.”<cite>— Debbie Boulter</cite></blockquote></div>
+      </div>
+    </section>
+
+    <section class="section container" id="favorites">
+      <div class="section-heading"><span class="eyebrow">A TASTE OF BEE'S</span><h2>Made with care, served with a smile.</h2><p>From morning favorites to bakery treats, there's always something to enjoy.</p></div>
+      <div class="cards">
+        <article class="food-card"><img src="images/bakery-display.jpg.png" alt="Bakery display with cookies and bee decorations" loading="lazy"><div><h3>From the Bakery</h3><p>Homemade cookies, muffins, cakes, and other sweet creations.</p></div></article>
+        <article class="food-card"><img src="images/fall-treats.jpg.png" alt="Assorted homemade cookies and seasonal baked treats" loading="lazy"><div><h3>Something Sweet</h3><p>Beautifully made treats for everyday cravings and special occasions.</p></div></article>
+        <article class="food-card"><img src="images/cafe-seating.jpg.png" alt="Sunlit café seating at Bee's Café" loading="lazy"><div><h3>Stay a While</h3><p>Settle in for breakfast or lunch in our cozy downtown café.</p></div></article>
+      </div>
+      <p class="menu-note">Looking for today's specials or the latest menu? <a href="https://www.facebook.com/BeesCafeWaterloo/" target="_blank" rel="noopener noreferrer">Check our Facebook page</a> or contact the café before visiting.</p>
+    </section>
+
+    <section class="section cafe-menu" id="menu">
+      <div class="container" style="text-align:center">
+        <div class="section-heading"><span class="eyebrow">FRESH FROM THE HIVE</span><h2>Explore Our Menu</h2><p>Homemade breakfast, lunch favorites, and sweet treats from Debbie’s bakery.</p></div>
+        <div class="button-row" style="justify-content:center"><a class="btn btn-yellow" href="menu.html">View Our Full Menu</a></div>
+      </div>
+    </section>
+
+    <section class="quote-band"><div class="container"><span aria-hidden="true">🐝</span><p>Always buzzing. Always baking.</p><span class="quote-small">A little sweetness goes a long way.</span></div></section>
+
+    <section class="section container" id="gallery">
+      <div class="section-heading"><span class="eyebrow">LIFE AT BEE'S</span><h2>A peek inside our hive</h2><p>Good food, cozy corners, and a little bee-inspired charm.</p></div>
+      <div class="gallery-grid">
+        <img src="images/cafe-interior.jpg" alt="Inside Bee's Café with blue tables" loading="lazy">
+        <img src="images/bakery-treats.jpg.png" alt="Assortment of decorated baked goods" loading="lazy">
+        <img src="images/decorated-cookies.jpg.png" alt="Decorated seasonal cookies and cupcakes" loading="lazy">
+        <img src="images/cafe-exterior.jpg" alt="Exterior of Bee's Café in downtown Seneca Falls" loading="lazy">
+      </div>
+    </section>
+
+    <section class="visit section" id="visit"><div class="container split visit-split"><div><span class="eyebrow">COME SAY HELLO</span><h2>Find your way to Bee's</h2><p>We're in downtown Seneca Falls, New York. Stop by for a meal or something sweet to take home.</p><p>For current hours, menu updates, and announcements, visit our Facebook page.</p><div class="button-row"><a class="btn btn-dark" href="https://www.facebook.com/BeesCafeWaterloo/" target="_blank" rel="noopener noreferrer">Visit Our Facebook</a><a class="btn btn-light" href="https://www.google.com/maps/search/?api=1&query=Bee%27s+Cafe+Seneca+Falls+NY" target="_blank" rel="noopener noreferrer">Get Directions</a></div></div><img src="images/cafe-exterior.jpg" alt="Bee's Café storefront" loading="lazy"></div></section>
+  </main>
+  <footer><div class="container footer-inner"><span>🐝 Bee's Café · Seneca Falls, NY</span><span>Made with care in the Finger Lakes</span></div></footer>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover Bee's Café in Seneca Falls, NY: homemade baked goods, breakfast, lunch, and a warm welcome.">
+  <title>Menu | Bee's Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html#home"><span class="bee" aria-hidden="true">🐝</span> Bee's Café</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">☰</button>
+    <div class="nav-links" id="nav-links"><a href="index.html#about">Our Story</a><a href="index.html#favorites">What We Make</a><a href="menu.html" aria-current="page">Menu</a><a href="index.html#gallery">Gallery</a><a href="index.html#visit" class="nav-visit">Visit Us</a></div>
+  </nav></header>
+  <main id="main">
+    <div class="container" style="padding-top:30px"><a href="index.html">← Back to Home</a></div>
+    <section class="section cafe-menu" id="menu">
+  <div class="container">
+    <div class="section-heading"><span class="eyebrow">FRESH FROM THE HIVE</span><h2>Explore Our Menu</h2><p>Homemade favorites for breakfast and lunch.</p></div>
+    <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+      <button class="menu-tab active" id="tab-breakfast" type="button" role="tab" aria-selected="true" aria-controls="panel-breakfast" tabindex="0">☀️ Breakfast</button>
+      <button class="menu-tab" id="tab-lunch" type="button" role="tab" aria-selected="false" aria-controls="panel-lunch" tabindex="-1">🥪 Lunch</button>
+      <button class="menu-tab" id="tab-bakery" type="button" role="tab" aria-selected="false" aria-controls="panel-bakery" tabindex="-1">🧁 Bakery</button>
+    </div>
+    <div class="menu-panel" id="panel-breakfast" role="tabpanel" aria-labelledby="tab-breakfast">
+      <h3>Breakfast All Day</h3>
+      <h4 class="menu-group-title">Quiche of the Day</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Quiche of the Day</h4>
+          <p>A slice of quiche served with a piece of homemade toast</p>
+        </div><span class="menu-price">$9.99</span></article>
+      </div>
+      <h4 class="menu-group-title">Omelets — Three Eggs &amp; Cheese</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Western</h4>
+          <p>Ham, onions, peppers, cheese and toast</p>
+        </div><span class="menu-price">$11.59</span></article>
+        <article class="menu-item"><div>
+          <h4>BLT</h4>
+          <p>Bacon, spinach, tomato, cheese and toast</p>
+        </div><span class="menu-price">$11.59</span></article>
+        <article class="menu-item"><div>
+          <h4>Mushroom Swiss</h4>
+          <p>Sautéed mushrooms, Swiss cheese and toast</p>
+        </div><span class="menu-price">$11.59</span></article>
+        <article class="menu-item"><div>
+          <h4>Bacon &amp; Cheddar</h4>
+          <p>Bacon, cheddar cheese and toast</p>
+        </div><span class="menu-price">$11.59</span></article>
+        <article class="menu-item"><div>
+          <h4>Sausage &amp; Cheese</h4>
+          <p>Sausage, cheese and toast</p>
+        </div><span class="menu-price">$11.59</span></article>
+        <article class="menu-item"><div>
+          <h4>Vegetable</h4>
+          <p>Assorted vegetables, cheese and toast</p>
+        </div><span class="menu-price">$11.59</span></article>
+        <article class="menu-item"><div>
+          <h4>Ham &amp; Cheese</h4>
+          <p>Ham, cheddar cheese and toast</p>
+        </div><span class="menu-price">$11.59</span></article>
+        <article class="menu-item"><div>
+          <h4>Cheese</h4>
+          <p>Three cheeses and toast</p>
+        </div><span class="menu-price">$11.59</span></article>
+        <article class="menu-item"><div>
+          <h4>Meat Lovers</h4>
+          <p>Ham, sausage, bacon, cheddar cheese and toast</p>
+        </div><span class="menu-price">$12.79</span></article>
+      </div>
+      <h4 class="menu-group-title">Eggs &amp; Breakfast Sandwiches</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>2 Eggs with Toast</h4>
+        </div><span class="menu-price">$6.49</span></article>
+        <article class="menu-item"><div>
+          <h4>2 Eggs with Bacon, Ham or Sausage &amp; Toast</h4>
+        </div><span class="menu-price">$9.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Breakfast Sandwich</h4>
+          <p>One egg any style with cheese and bacon, ham or sausage on homemade toast</p>
+        </div><span class="menu-price">$8.49</span></article>
+        <article class="menu-item"><div>
+          <h4>The Double Breakfast Sandwich</h4>
+          <p>Two eggs any style with bacon, ham and sausage, or double up, on homemade toast</p>
+        </div><span class="menu-price">$10.49</span></article>
+      </div>
+      <h4 class="menu-group-title">French Toast</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Tall Stack</h4>
+          <p>Three pieces of golden-brown French toast</p>
+        </div><span class="menu-price">$8.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Short Stack</h4>
+          <p>Two pieces of golden-brown French toast</p>
+        </div><span class="menu-price">$7.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Specialty Banana Bread French Toast</h4>
+          <p>Two pieces made with homemade banana bread</p>
+        </div><span class="menu-price">$10.29</span></article>
+      </div>
+      <h4 class="menu-group-title">Pancakes — Not Served After 11:00 AM</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Short Stack</h4>
+          <p>Two golden-brown pancakes</p>
+        </div><span class="menu-price">$7.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Chocolate Chip Pancakes</h4>
+          <p>Two golden-brown pancakes with chocolate chips</p>
+        </div><span class="menu-price">$9.59</span></article>
+      </div>
+      <h4 class="menu-group-title">Eggs Benedict</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Eggs Benedict</h4>
+          <p>Two poached eggs over ham on an English muffin or homemade toast, with hollandaise</p>
+        </div><span class="menu-price">$13.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Seth Benedict</h4>
+          <p>Two over-easy eggs over sausage on an English muffin or homemade toast, with hollandaise</p>
+        </div><span class="menu-price">$13.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Spinach Benedict</h4>
+          <p>Two poached eggs over sautéed spinach on an English muffin or homemade toast, with hollandaise</p>
+        </div><span class="menu-price">$13.99</span></article>
+      </div>
+      <h4 class="menu-group-title">Breakfast Extras</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Bagel</h4>
+          <p>Toasted with cream cheese or butter</p>
+        </div><span class="menu-price">$3.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Muffin</h4>
+          <p>Ask your server for the assortment</p>
+        </div><span class="menu-price">$3.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Oatmeal</h4>
+          <p>Bowl with brown sugar, raisins and milk</p>
+        </div><span class="menu-price">$4.49</span></article>
+      </div>
+      <h4 class="menu-group-title">Breakfast Sides</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Bacon</h4>
+          <p>Three strips of applewood-smoked bacon</p>
+        </div><span class="menu-price">$4.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Sausage</h4>
+          <p>Two sausage patties</p>
+        </div><span class="menu-price">$4.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Ham</h4>
+          <p>Two pieces of baked ham</p>
+        </div><span class="menu-price">$4.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Hash Browns</h4>
+          <p>Fried hash brown potatoes</p>
+        </div><span class="menu-price">$4.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Toast</h4>
+          <p>Two pieces of homemade bread toasted with butter</p>
+        </div><span class="menu-price">$3.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Banana Bread</h4>
+          <p>Two slices</p>
+        </div><span class="menu-price">$4.99</span></article>
+      </div>
+      <h4 class="menu-group-title">Beverages</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Coffee or Hot Tea</h4>
+        </div><span class="menu-price">$2.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Hot Chocolate</h4>
+        </div><span class="menu-price">$2.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Soda</h4>
+        </div><span class="menu-price">$2.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Iced Tea</h4>
+        </div><span class="menu-price">$2.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Bottled Water</h4>
+        </div><span class="menu-price">$2.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Juice — Small / Large</h4>
+        </div><span class="menu-price">$3.49 / 4.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Milk</h4>
+        </div><span class="menu-price">$1.99</span></article>
+      </div>
+    </div>
+    <div class="menu-panel" id="panel-lunch" role="tabpanel" aria-labelledby="tab-lunch" hidden>
+      <h3>Lunch — Starting at 11:00 AM</h3>
+      <p class="menu-intro">Printed menu states all lunch items are served with one side.</p>
+      <h4 class="menu-group-title">Lunch Favorites</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>PB &amp; J</h4>
+          <p>Peanut butter and jelly on toasted homemade bread, with your choice of jelly</p>
+        </div><span class="menu-price">$7.99</span></article>
+        <article class="menu-item"><div>
+          <h4>BLT Sandwich</h4>
+          <p>Three slices of applewood-smoked bacon on toasted homemade bread with spinach, tomato and mayo</p>
+        </div><span class="menu-price">$9.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Homemade Macaroni &amp; Cheese</h4>
+          <p>Tender pasta with a blend of four cheeses; family recipe</p>
+        </div><span class="menu-price">$11.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Bacon Mac &amp; Cheese</h4>
+          <p>Four-cheese pasta with applewood-smoked bacon</p>
+        </div><span class="menu-price">$13.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Sandwich of the Day</h4>
+          <p>Ask your server about today’s sandwich</p>
+        </div><span class="menu-price">$7.99</span></article>
+      </div>
+      <h4 class="menu-group-title">Grilled Sandwiches</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Melt of the Day</h4>
+          <p>Ask your server about today’s melt</p>
+        </div><span class="menu-price">$9.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Monte Cristo</h4>
+          <p>Grilled ham and cheese served on French toast made with homemade white bread</p>
+        </div><span class="menu-price">$12.95</span></article>
+        <article class="menu-item"><div>
+          <h4>Dill Pickle Grilled Cheese</h4>
+          <p>Grilled cheese with dill pickles on homemade bread</p>
+        </div><span class="menu-price">$9.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Hawaiian Grilled Cheese</h4>
+          <p>Ham, sliced pineapple and cheddar on homemade bread</p>
+        </div><span class="menu-price">$11.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Grilled Ham &amp; Cheese</h4>
+          <p>Grilled ham with American cheese</p>
+        </div><span class="menu-price">$10.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Grilled Cheese</h4>
+          <p>American cheese on homemade bread; add tomato for $0.75 or bacon for $4.49</p>
+        </div><span class="menu-price">$8.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Double Decker Grilled Cheese</h4>
+          <p>Cheddar, American and Muenster cheeses on homemade bread, served with chips; add bacon for $4.49</p>
+        </div><span class="menu-price">$11.99</span></article>
+      </div>
+      <h4 class="menu-group-title">Salads</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Side Salad</h4>
+          <p>Greens, tomato, carrots, cucumbers and cheese; choice of dressing</p>
+        </div><span class="menu-price">$4.99</span></article>
+        <article class="menu-item"><div>
+          <h4>Large Specialty Salad of the Day</h4>
+          <p>Greens, tomato, carrots, cucumbers and cheese with a featured ingredient and dressing</p>
+        </div><span class="menu-price">$13.99</span></article>
+      </div>
+      <h4 class="menu-group-title">Sides</h4>
+      <div class="menu-items">
+        <article class="menu-item"><div>
+          <h4>Included Side Choices</h4>
+          <p>Chips, macaroni salad, coleslaw, cottage cheese or applesauce</p>
+        </div><span class="menu-price">Included</span></article>
+        <article class="menu-item"><div>
+          <h4>Additional Side</h4>
+        </div><span class="menu-price">$4.49</span></article>
+        <article class="menu-item"><div>
+          <h4>Fruit Salad</h4>
+        </div><span class="menu-price">$4.99</span></article>
+      </div>
+    </div>
+    <div class="menu-panel" id="panel-bakery" role="tabpanel" aria-labelledby="tab-bakery" hidden>
+      <h3>From Debbie’s Bakery</h3>
+      <p class="menu-intro">Homemade breads, cookies, cakes, muffins, pies and brownies. Ask about today’s selection and pricing.</p>
+    </div>
+    <p class="menu-disclaimer">Menu transcribed from supplied photographs; prices and availability should be confirmed with Bee’s Café before publishing. <a href="https://www.facebook.com/BeesCafeWaterloo/" target="_blank" rel="noopener noreferrer">Facebook updates</a>.</p>
+  </div>
+</section>
+  </main>
+  <footer><div class="container footer-inner"><span>🐝 Bee's Café · Seneca Falls, NY</span><span>Made with care in the Finger Lakes</span></div></footer>
+</body>
+</html>
